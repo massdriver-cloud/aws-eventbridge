@@ -1,0 +1,38 @@
+# This file will be used to generate all of the schema-*.json files in a bundle
+schema: draft-07
+name: "aws-eventbridge"
+description: "High scale publish subscribe event bus system with optional delivery rules."
+ref: github.com/massdriver-cloud/aws-eventbridge
+access: "private"
+type: "bundle"
+
+params:
+  examples:
+    - __name: Default
+      region: us-east-1
+  required:
+    - region
+  properties:
+    region:
+      $ref: https://raw.githubusercontent.com/massdriver-cloud/artifact-definitions/main/definitions/types/aws-region.json
+
+connections:
+  required:
+    - aws_authentication
+  properties:
+    aws_authentication:
+      $ref: massdriver/aws-iam-role
+
+artifacts:
+  required:
+    - eventbridge
+  properties:
+    eventbridge:
+      $ref: massdriver/aws-eventbridge
+
+ui:
+  ui:order:
+    - "*"
+  region:
+    ui:field: containerRepositoryLocationsDropdown
+    cloudService: aws
