@@ -1,7 +1,7 @@
 resource "massdriver_artifact" "infrastructure" {
   field                = "eventbridge"
   provider_resource_id = aws_cloudwatch_event_bus.main.arn
-  name                 = "EventBridge ARN"
+  name                 = "EventBridge ${var.md_metadata.name_prefix}"
   artifact = jsonencode(
     {
       data = {
@@ -12,8 +12,6 @@ resource "massdriver_artifact" "infrastructure" {
       specs = {
         aws = {
           region   = var.region
-          resource = "event bus"
-          service  = "EventBridge"
         }
       }
     }
