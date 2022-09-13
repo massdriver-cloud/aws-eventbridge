@@ -8,10 +8,17 @@ resource "massdriver_artifact" "infrastructure" {
         infrastructure = {
           arn = aws_cloudwatch_event_bus.main.arn
         }
+        security = {
+          iam = {
+            write = {
+              policy_arn = aws_iam_policy.write.arn
+            }
+          }
+        }
       }
       specs = {
         aws = {
-          region   = var.region
+          region = var.region
         }
       }
     }
