@@ -15,6 +15,7 @@ params:
   properties:
     region:
       $ref: https://raw.githubusercontent.com/massdriver-cloud/artifact-definitions/main/definitions/types/aws-region.json
+      $md.immutable: true
 
 connections:
   required:
