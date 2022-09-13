@@ -34,5 +34,5 @@ ui:
   ui:order:
     - "*"
   region:
-    ui:field: containerRepositoryLocationsDropdown
-    cloudService: aws
+    ui:field: supportedCloudLocationsDropdown
+    cloudService: AWS
