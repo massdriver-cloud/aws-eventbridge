@@ -2,8 +2,8 @@
 schema: draft-07
 name: "aws-eventbridge"
 description: "High scale publish subscribe event bus system with optional delivery rules."
-ref: github.com/massdriver-cloud/aws-eventbridge
-access: "private"
+source_url: github.com/massdriver-cloud/aws-eventbridge
+access: "public"
 type: "bundle"
 
 params:
