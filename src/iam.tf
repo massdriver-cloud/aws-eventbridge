@@ -7,7 +7,7 @@ locals {
 }
 
 resource "aws_iam_policy" "write" {
-  name        = "${var.md_metadata.name_prefix}-write-role"
+  name        = "${var.md_metadata.name_prefix}-write"
   description = "AWS Eventbridge write policy: ${var.md_metadata.name_prefix}"
 
   policy = jsonencode({
