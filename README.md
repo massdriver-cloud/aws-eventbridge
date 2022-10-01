@@ -622,7 +622,7 @@ Resources created by this bundle that can be connected to other bundles.
 
 ### Bug Reports & Feature Requests
 
-Did we miss something? Please [submit an issue](https://github.com/massdriver-cloud/aws-rds-postgres/issues) to report any bugs or request additional features.
+Did we miss something? Please [submit an issue](https://github.com/massdriver-cloud/aws-eventbridge/issues) to report any bugs or request additional features.
 
 ### Developing
 
@@ -654,26 +654,26 @@ Please connect with us!
 <!-- markdownlint-disable -->
 
 [logo]: https://raw.githubusercontent.com/massdriver-cloud/docs/main/static/img/logo-with-logotype-horizontal-400x110.svg
-[docs]: https://docs.massdriver.cloud/?utm_source=github&utm_medium=readme&utm_campaign=aws-rds-postgres&utm_content=docs
-[website]: https://www.massdriver.cloud/?utm_source=github&utm_medium=readme&utm_campaign=aws-rds-postgres&utm_content=website
-[github]: https://github.com/massdriver-cloud?utm_source=github&utm_medium=readme&utm_campaign=aws-rds-postgres&utm_content=github
-[slack]: https://massdriverworkspace.slack.com/?utm_source=github&utm_medium=readme&utm_campaign=aws-rds-postgres&utm_content=slack
-[linkedin]: https://www.linkedin.com/company/massdriver/?utm_source=github&utm_medium=readme&utm_campaign=aws-rds-postgres&utm_content=linkedin
+[docs]: https://docs.massdriver.cloud/?utm_source=github&utm_medium=readme&utm_campaign=aws-eventbridge&utm_content=docs
+[website]: https://www.massdriver.cloud/?utm_source=github&utm_medium=readme&utm_campaign=aws-eventbridge&utm_content=website
+[github]: https://github.com/massdriver-cloud?utm_source=github&utm_medium=readme&utm_campaign=aws-eventbridge&utm_content=github
+[slack]: https://massdriverworkspace.slack.com/?utm_source=github&utm_medium=readme&utm_campaign=aws-eventbridge&utm_content=slack
+[linkedin]: https://www.linkedin.com/company/massdriver/?utm_source=github&utm_medium=readme&utm_campaign=aws-eventbridge&utm_content=linkedin
 
 
 
-[contributors_shield]: https://img.shields.io/github/contributors/massdriver-cloud/aws-rds-postgres.svg?style=for-the-badge
-[contributors_url]: https://github.com/massdriver-cloud/aws-rds-postgres/graphs/contributors
-[forks_shield]: https://img.shields.io/github/forks/massdriver-cloud/aws-rds-postgres.svg?style=for-the-badge
-[forks_url]: https://github.com/massdriver-cloud/aws-rds-postgres/network/members
-[stars_shield]: https://img.shields.io/github/stars/massdriver-cloud/aws-rds-postgres.svg?style=for-the-badge
-[stars_url]: https://github.com/massdriver-cloud/aws-rds-postgres/stargazers
-[issues_shield]: https://img.shields.io/github/issues/massdriver-cloud/aws-rds-postgres.svg?style=for-the-badge
-[issues_url]: https://github.com/massdriver-cloud/aws-rds-postgres/issues
-[release_url]: https://github.com/massdriver-cloud/aws-rds-postgres/releases/latest
-[release_shield]: https://img.shields.io/github/release/massdriver-cloud/aws-rds-postgres.svg?style=for-the-badge
-[license_shield]: https://img.shields.io/github/license/massdriver-cloud/aws-rds-postgres.svg?style=for-the-badge
-[license_url]: https://github.com/massdriver-cloud/aws-rds-postgres/blob/main/LICENSE
+[contributors_shield]: https://img.shields.io/github/contributors/massdriver-cloud/aws-eventbridge.svg?style=for-the-badge
+[contributors_url]: https://github.com/massdriver-cloud/aws-eventbridge/graphs/contributors
+[forks_shield]: https://img.shields.io/github/forks/massdriver-cloud/aws-eventbridge.svg?style=for-the-badge
+[forks_url]: https://github.com/massdriver-cloud/aws-eventbridge/network/members
+[stars_shield]: https://img.shields.io/github/stars/massdriver-cloud/aws-eventbridge.svg?style=for-the-badge
+[stars_url]: https://github.com/massdriver-cloud/aws-eventbridge/stargazers
+[issues_shield]: https://img.shields.io/github/issues/massdriver-cloud/aws-eventbridge.svg?style=for-the-badge
+[issues_url]: https://github.com/massdriver-cloud/aws-eventbridge/issues
+[release_url]: https://github.com/massdriver-cloud/aws-eventbridge/releases/latest
+[release_shield]: https://img.shields.io/github/release/massdriver-cloud/aws-eventbridge.svg?style=for-the-badge
+[license_shield]: https://img.shields.io/github/license/massdriver-cloud/aws-eventbridge.svg?style=for-the-badge
+[license_url]: https://github.com/massdriver-cloud/aws-eventbridge/blob/main/LICENSE
 
 
 [email_url]: mailto:support@massdriver.cloud
@@ -682,9 +682,9 @@ Please connect with us!
 [github_shield]: https://img.shields.io/badge/follow-Github-black.svg?style=for-the-badge&logo=github&color=181717
 [linkedin_url]: https://linkedin.com/in/massdriver-cloud
 [linkedin_shield]: https://img.shields.io/badge/follow-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&color=0A66C2
-[twitter_url]: https://twitter.com/massdriver?utm_source=github&utm_medium=readme&utm_campaign=aws-rds-postgres&utm_content=twitter
+[twitter_url]: https://twitter.com/massdriver?utm_source=github&utm_medium=readme&utm_campaign=aws-eventbridge&utm_content=twitter
 [twitter_shield]: https://img.shields.io/badge/follow-Twitter-black.svg?style=for-the-badge&logo=twitter&color=1DA1F2
-[discourse_url]: https://community.massdriver.cloud?utm_source=github&utm_medium=readme&utm_campaign=aws-rds-postgres&utm_content=discourse
+[discourse_url]: https://community.massdriver.cloud?utm_source=github&utm_medium=readme&utm_campaign=aws-eventbridge&utm_content=discourse
 [discourse_shield]: https://img.shields.io/badge/join-Discourse-black.svg?style=for-the-badge&logo=discourse&color=000000
 [youtube_url]: https://www.youtube.com/channel/UCfj8P7MJcdlem2DJpvymtaQ
 [youtube_shield]: https://img.shields.io/badge/subscribe-Youtube-black.svg?style=for-the-badge&logo=youtube&color=FF0000
