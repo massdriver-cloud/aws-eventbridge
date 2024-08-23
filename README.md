@@ -17,7 +17,7 @@ High scale publish subscribe event bus system with optional delivery rules.
 
 ## Design
 
-For detailed information, check out our [Operator Guide](operator.mdx) for this bundle.
+For detailed information, check out our [Operator Guide](operator.md) for this bundle.
 
 ## Usage
 
