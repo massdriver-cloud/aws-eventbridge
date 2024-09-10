@@ -37,23 +37,8 @@ Form input parameters for configuring a bundle for deployment.
 <summary>View</summary>
 
 <!-- PARAMS:START -->
-## Properties
 
-- **`region`** *(string)*: AWS Region to provision in.
-
-  Examples:
-  ```json
-  "us-west-2"
-  ```
-
-## Examples
-
-  ```json
-  {
-      "__name": "Default",
-      "region": "us-east-1"
-  }
-  ```
+**Params coming soon**
 
 <!-- PARAMS:END -->
 
@@ -67,30 +52,8 @@ Connections from other bundles that this bundle depends on.
 <summary>View</summary>
 
 <!-- CONNECTIONS:START -->
-## Properties
 
-- **`aws_authentication`** *(object)*: . Cannot contain additional properties.
-  - **`data`** *(object)*
-    - **`arn`** *(string)*: Amazon Resource Name.
-
-      Examples:
-      ```json
-      "arn:aws:rds::ACCOUNT_NUMBER:db/prod"
-      ```
-
-      ```json
-      "arn:aws:ec2::ACCOUNT_NUMBER:vpc/vpc-foo"
-      ```
-
-    - **`external_id`** *(string)*: An external ID is a piece of data that can be passed to the AssumeRole API of the Security Token Service (STS). You can then use the external ID in the condition element in a role's trust policy, allowing the role to be assumed only when a certain value is present in the external ID.
-  - **`specs`** *(object)*
-    - **`aws`** *(object)*: .
-      - **`region`** *(string)*: AWS Region to provision in.
-
-        Examples:
-        ```json
-        "us-west-2"
-        ```
+**Connections coming soon**
 
 <!-- CONNECTIONS:END -->
 
@@ -104,71 +67,8 @@ Resources created by this bundle that can be connected to other bundles.
 <summary>View</summary>
 
 <!-- ARTIFACTS:START -->
-## Properties
 
-- **`eventbridge`** *(object)*: Connection details for EventBridge event bus. Cannot contain additional properties.
-  - **`data`** *(object)*
-    - **`infrastructure`** *(object)*
-      - **`arn`** *(string)*: Amazon Resource Name.
-
-        Examples:
-        ```json
-        "arn:aws:rds::ACCOUNT_NUMBER:db/prod"
-        ```
-
-        ```json
-        "arn:aws:ec2::ACCOUNT_NUMBER:vpc/vpc-foo"
-        ```
-
-    - **`security`** *(object)*: Informs downstream services of network and/or IAM policies. Cannot contain additional properties.
-      - **`iam`** *(object)*: IAM Policies. Cannot contain additional properties.
-        - **`^[a-z]+[a-z_]*[a-z]+$`** *(object)*
-          - **`policy_arn`** *(string)*: AWS IAM policy ARN.
-
-            Examples:
-            ```json
-            "arn:aws:rds::ACCOUNT_NUMBER:db/prod"
-            ```
-
-            ```json
-            "arn:aws:ec2::ACCOUNT_NUMBER:vpc/vpc-foo"
-            ```
-
-      - **`identity`** *(object)*: For instances where IAM policies must be attached to a role attached to an AWS resource, for instance AWS Eventbridge to Firehose, this attribute should be used to allow the downstream to attach it's policies (Firehose) directly to the IAM role created by the upstream (Eventbridge). It is important to remember that connections in massdriver are one way, this scheme perserves the dependency relationship while allowing bundles to control the lifecycles of resources under it's management. Cannot contain additional properties.
-        - **`role_arn`** *(string)*: ARN for this resources IAM Role.
-
-          Examples:
-          ```json
-          "arn:aws:rds::ACCOUNT_NUMBER:db/prod"
-          ```
-
-          ```json
-          "arn:aws:ec2::ACCOUNT_NUMBER:vpc/vpc-foo"
-          ```
-
-      - **`network`** *(object)*: AWS security group rules to inform downstream services of ports to open for communication. Cannot contain additional properties.
-        - **`^[a-z-]+$`** *(object)*
-          - **`arn`** *(string)*: Amazon Resource Name.
-
-            Examples:
-            ```json
-            "arn:aws:rds::ACCOUNT_NUMBER:db/prod"
-            ```
-
-            ```json
-            "arn:aws:ec2::ACCOUNT_NUMBER:vpc/vpc-foo"
-            ```
-
-          - **`port`** *(integer)*: Port number. Minimum: `0`. Maximum: `65535`.
-          - **`protocol`** *(string)*: Must be one of: `['tcp', 'udp']`.
-  - **`specs`** *(object)*
-    - **`aws`** *(object)*: .
-      - **`region`** *(string)*: AWS Region to provision in.
-
-        Examples:
-        ```json
-        "us-west-2"
-        ```
+**Artifacts coming soon**
 
 <!-- ARTIFACTS:END -->
 
