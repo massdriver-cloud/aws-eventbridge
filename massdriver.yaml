@@ -18,13 +18,13 @@ connections:
   - aws_authentication
   properties:
     aws_authentication:
-      "$ref": massdriver/aws-iam-role
+      "$ref": aws-iam-role
 artifacts:
   required:
   - eventbridge
   properties:
     eventbridge:
-      "$ref": massdriver/aws-eventbridge
+      "$ref": aws-eventbridge
 ui:
   ui:order:
   - "*"
